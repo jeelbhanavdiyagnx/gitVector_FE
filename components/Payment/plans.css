@@ -1,0 +1,14 @@
+.plans-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    .plans-container {
+      flex-direction: column;
+      gap: 16px;
+    }
+  }
+    

@@ -1,0 +1,45 @@
+/* Tooltip styling */
+.svg-tip {
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    color: #333;
+    border-radius: 4px;
+    pointer-events: none;
+  }
+  
+  /* Tooltip visibility */
+  .svg-tip {
+    display: none;
+  }
+  
+  /* Day block styling */
+  .day {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .day:hover {
+    opacity: 0.7;
+  }
+  .month {
+    font-size: 12px; 
+    fill: #333; 
+    user-select: none; 
+  }
+  
+  .month:hover {
+    fill: #0d0d0d; 
+    cursor: pointer; 
+  }  
+  .wday{
+    font-size: 12px; 
+    fill: #333; 
+    user-select: none; 
+  }
+  .wday{
+    fill: #0d0d0d; 
+    cursor: pointer; 
+  }

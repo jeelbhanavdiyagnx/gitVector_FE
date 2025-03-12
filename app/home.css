@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 7%;
+  width: 100%;
+  align-items: center;
+}
+.\[\&_\.recharts-cartesian-axis-tick_text\]\:fill-muted-foreground .recharts-cartesian-axis-tick  #light {
+  fill: black;
+  
+}
+
+.\[\&_\.recharts-cartesian-axis-tick_text\]\:fill-muted-foreground .recharts-cartesian-axis-tick  #dark {
+  fill: white;
+  
+}
+
